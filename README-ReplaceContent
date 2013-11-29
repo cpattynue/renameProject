@@ -1,0 +1,46 @@
+RenameProject Version 1.0 28/11/2013
+
+GENERAL USAGE NOTES
+--------------------
+-The code was test in a OS X Version 10.7.5 
+___________________________________________________________
+                        replace.sh
+ __________________________________________________________
+
+
+This script searches matches with desired word 
+inside files of a complete directory recursively,
+and then replace the word for the replacement word desired.
+--------------------
+Syntax
+--------------------
+
+sh replace.sh directory/ wordToSearch wordToReplace
+
+-Where the command "sh" run the "replace.sh" file  in console.
+-"directory" is the location of the files to edit.
+-"wordToSearch" is the word to be searched in the archives 
+and will be replaced.
+-"wordToReplace" is the word that will replace the previous word.
+
+______________________________________________________________
+                     replace.sh
+______________________________________________________________
+
+This script searches matches with desired word in the  files name
+inside a complete directory recursively,  and then it replace 
+this word for the replacement word desired.
+--------------------
+Syntax
+--------------------
+
+sh replacefile.sh directory/ typeOfFiles wordToSearch wordToReplace
+
+-Where the command "sh" run the "replacefile.sh" file  in console.
+-"directory" is the location of the files to edit.
+-"tipeOfFile" (f to files,d to directories).
+-"wordToSearch" is the word to be searched in the archives
+  and will be replaced.
+-"wordToReplace" is the word that will replace the previous word.
+
+____________________________________________________________________
