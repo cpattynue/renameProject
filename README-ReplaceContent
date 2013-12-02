@@ -24,7 +24,7 @@ and will be replaced.
 -"wordToReplace" is the word that will replace the previous word.
 
 ______________________________________________________________
-                     replace.sh
+                     replacefiles.sh
 ______________________________________________________________
 
 This script searches matches with desired word in the  files name
